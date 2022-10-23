@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baidu</title>
+</head>
+<!-- 很多东西都是借鉴的（能力实在有限），css中的高度位置大小等也是模仿的 -->
+<body>
+<style>
+    .A {
+        left: 0px;
+        top: 0px;
+        height: 60px;
+        width: 480px;
+        padding-left: 24px;
+        position: absolute;
+        font-size: 0px;
+    }
+    
+    .B {
+        height: 22.4px;
+        color: grey;
+        margin-right: 24px;
+        margin-top: 19px;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        display: inline-block;
+    }
+    
+    .C {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        z-index: 100px;
+        height: 60px;
+        padding-right: 24px;
+        padding-left: 200px;
+    }
+    
+    .c1 {
+        margin-top: 21.2px;
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        color: grey;
+        font-size: 13px;
+        font-family: Arial, sans-serif;
+    }
+    
+    .D {
+        top: 0px;
+        left: 441px;
+        position: absolute;
+        width: 654px;
+        height: 314px;
+        display: block;
+    }
+    
+    .d1 {
+        display: block;
+        position: absolute;
+        left: 185px;
+        bottom: 140px;
+    }
+    
+    .E {
+        height: 44px;
+        width: 654px;
+        position: absolute;
+        bottom: 80px;
+    }
+    
+    .e1 {
+        width: 546px;
+        display: inline-block;
+    }
+    
+    .e3 {
+        width: 443px;
+        height: 16px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 87px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        border-color:grey;
+        outline-color: blue;
+    }
+    
+    .e2 {
+        width: 108px;
+        height: 44px;
+        position: absolute;
+        display: inline-block;
+        right: 0px;
+    }
+    
+    .e4 {
+        cursor: pointer;
+        width: 108px;
+        height: 44px;
+        line-height: 45px;
+        padding: 0px;
+        background: 0px;
+        background-color: blue;
+        border-radius: 10px;
+        font-size: 17px;
+        color: white;
+        box-shadow: none;
+        font-weight: 400px;
+        border: none;
+        outline: 0px;
+    }
+
+    .F {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 39px;
+        padding-top: 1px;
+        line-height: 39px;
+        background: white;
+        font-size: 12px;
+        font-family: Arial, sans-serif;
+        padding-left: 120px;
+    }
+    
+    .f1 {
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        color: grey;
+        margin-right: 20px;
+        color: grey;
+    }
+
+
+</style>
+<body>
+    <div class="A">
+        <a href="http://news.baidu.com/" target="_blank" class="B"> 新闻</a>
+        <a href="https://www.hao123.com/?src=from_pc" target="_blank" class="B">hao123</a>
+        <a href="https://map.baidu.com/@13045537,4301993,13z" target="_blank" class="B"> 地图</a>
+        <a href="https://tieba.baidu.com/index.html" target="_blank" class="B"> 贴吧</a>
+        <a href="https://haokan.baidu.com/?sfrom=baidu-top" target="_blank" class="B"> 视频</a>
+        <a href="https://image.baidu.com/" target="_blank" class="B"> 图片</a>
+        <a href="https://pan.baidu.com/?from=1026962h" target="_blank" class="B"> 网盘</a>
+        <a href="https://www.baidu.com/more/" target="_blank" class="B">更多</a>
+    </div>
+    <div class="C">
+        <a class="c1">设置</a>
+        <a class="c1">登录</a>
+    </div>
+    <div class="D">
+        <a href="https://www.baidu.com/s?wd=%E7%99%BE%E5%BA%A6%E7%83%AD%E6%90%9C&sa=ire_dl_gh_logo_texing&rsv_dl=igh_logo_pcs" target="_blank"><img class="d1" src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" title="真的能加载哦" width="270" ; height="129" ;>
+        </a>
+        <form class="E">
+            <span class="e1"><input class="e3" type="text" value="只能打字，不能搜索" ></span>
+            <span class="e2"> <input class="e4"type="submit" value="百度一下下"></span>
+        </form>
+    </div>
+    <div class="F">
+        <a href="https://home.baidu.com/" target="_blank" class="f1"> 关于百度</a>
+        <a href="https://ir.baidu.com/" target="_blank" class="f1">About Baidu</a>
+        <a href="https://www.baidu.com/duty/" target="_blank" class="f1">使用百度前必读</a>
+        <a href="https://help.baidu.com/" target="_blank" class="f1">帮助中心</a> 
+        <a href="https://e.baidu.com/?refer=1271" target="_blank" class="f1">企业推广</a>
+        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" target="_blank" class="f1"> 京公网安备11000002000001号</a>
+        <a href="https://beian.miit.gov.cn/" target="_blank" class="f1">京ICP证030173号</a>
+        <a href="https://www.baidu.com/licence/" target="_blank" class="f1">信息网络传播视听节目许可证0110516</a>
+        <a class="f1"> 互联网宗教信息服务许可证编号：京（2022）0000043</a>
+    </div>
+</body>
+</html>
